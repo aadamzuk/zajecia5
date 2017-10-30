@@ -1,6 +1,6 @@
 #ifndef ANALIZATORSYGNALU_HPP
 #define ANALIZATORSYGNALU_HPP
-#include "AnalizatorSygalu.hpp"
+#include "sygnal.hpp"
 #include <iostream>
 class AnalizatorSygnalu{
 double dlugosc(const Sygnal& sygnal);
@@ -11,3 +11,4 @@ double calka(const Sygnal& sygnal);
 
 
 };
+#endif

@@ -5,14 +5,14 @@
 #include <string>
 
 
-class sygnal {
+class Sygnal {
 public:
 Sygnal();
 void dodajProbke(const Probka& p);
 int iloscProbek();
 Probka& operator[](int i);
-friend std::ostream& operator<<(std::ostream& stream,const sygnal& sygnal);
-
+friend std::ostream& operator<<(std::ostream& stream,const Sygnal& sygnal);
+const Probka& operator[](int i) const;
 
 
 private:

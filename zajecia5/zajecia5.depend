@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1508769171 source:d:\adam_zuk\zajecia5\zajecia5\main.cpp
+1509377884 source:d:\adam_zuk\zajecia5\zajecia5\main.cpp
 	<iostream>
 	"probka.hpp"
 	"sygnal.hpp"
 
-1508767287 d:\adam_zuk\zajecia5\zajecia5\probka.hpp
+1509378414 d:\adam_zuk\zajecia5\zajecia5\probka.hpp
+	<iostream>
 
-1509375880 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
+1509380323 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
 	<vector>
 	"probka.hpp"
 	<string>
