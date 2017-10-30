@@ -4,17 +4,17 @@
 	"probka.hpp"
 	"sygnal.hpp"
 
-1508769245 d:\adam_zuk\zajecia5\zajecia5\probka.hpp
+1508767287 d:\adam_zuk\zajecia5\zajecia5\probka.hpp
 
-1508769124 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
+1509375880 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
 	<vector>
 	"probka.hpp"
 	<string>
 
-1508770906 source:d:\adam_zuk\zajecia5\zajecia5\probka.cpp
+1508767306 source:d:\adam_zuk\zajecia5\zajecia5\probka.cpp
 	"probka.hpp"
 
-1508769264 source:d:\adam_zuk\zajecia5\zajecia5\sygnal.cpp
+1508765664 source:d:\adam_zuk\zajecia5\zajecia5\sygnal.cpp
 	"sygnal.hpp"
 	<iostream>
 	<fstream>
