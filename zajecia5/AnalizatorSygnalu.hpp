@@ -3,6 +3,7 @@
 #include "sygnal.hpp"
 #include <iostream>
 class AnalizatorSygnalu{
+    public:
 double dlugosc(const Sygnal& sygnal);
 double minimum(const Sygnal& sygnal);
 double maksimum(const Sygnal& sygnal);

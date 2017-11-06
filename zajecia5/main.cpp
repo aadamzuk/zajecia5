@@ -1,7 +1,11 @@
 #include <iostream>
-
+#include <fstream>
+#include <string>
+#include <sstream>
 #include "probka.hpp"
 #include "sygnal.hpp"
+#include "SygnalLoader.hpp"
+#include "AnalizatorSygnalu.hpp"
 
 using namespace std;
 
@@ -13,19 +17,21 @@ int main(int argc,char* argv[])
  return -1;
 }
 
-string nazwa_pliku = argv[1];
-//AnalizatorSygnalu a1;
-Sygnal s1;
-//s1.wczytywanie(nazwa_pliku);
-//s1.odczytywanie();
-//cout<< "srednia wynosi"<< s1.oblicz_Srednia()<<endl;
-//cout<< "calka wynosi"<< s1.calka()<<endl;
-//cout<< "dlugosc wynosi"<< s1.oblicz_Dlugosc()<<endl;
-//cout<< "maximum wynosi"<< s1.sygnal_miximum()<<endl;
-//cout<< "minimum wynosi"<< s1.sygnal_minimum()<<endl;
 
 
-//s1.zapis ("nazwa.csv");
+AnalizatorSygnalu a1;
+Sygnal sy;
+SygnalLoader sl;
+Probka p1;
+sy=sl.wczytajSygnal(argv[1]);
+sl.zapiszSygnal(sy,"out.csv");
+cout<< "srednia wynosi"<< a1.srednia(sy)<<endl;
+cout<< "calka wynosi"<< a1.calka(sy)<<endl;
+cout<< "dlugosc wynosi"<< a1.dlugosc(sy)<<endl;
+cout<< "maximum wynosi"<< a1.maksimum(sy)<<endl;
+cout<< "minimum wynosi"<< a1.minimum(sy)<<endl;
+
+
     cin.get();
 
 

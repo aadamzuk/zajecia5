@@ -1,24 +1,49 @@
 # depslib dependency file v1.0
-1509377884 source:d:\adam_zuk\zajecia5\zajecia5\main.cpp
+1509971797 source:d:\adam_zuk\zajecia5\zajecia5\main.cpp
 	<iostream>
+	<fstream>
+	<string>
+	<sstream>
 	"probka.hpp"
 	"sygnal.hpp"
+	"SygnalLoader.hpp"
+	"AnalizatorSygnalu.hpp"
 
 1509378414 d:\adam_zuk\zajecia5\zajecia5\probka.hpp
 	<iostream>
 
-1509380323 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
+1509972025 d:\adam_zuk\zajecia5\zajecia5\sygnal.hpp
 	<vector>
 	"probka.hpp"
 	<string>
+	<iostream>
 
-1508767306 source:d:\adam_zuk\zajecia5\zajecia5\probka.cpp
+1509971170 source:d:\adam_zuk\zajecia5\zajecia5\probka.cpp
 	"probka.hpp"
 
-1508765664 source:d:\adam_zuk\zajecia5\zajecia5\sygnal.cpp
+1509969456 source:d:\adam_zuk\zajecia5\zajecia5\sygnal.cpp
 	"sygnal.hpp"
 	<iostream>
 	<fstream>
 	<string>
 	<sstream>
+
+1509971833 source:d:\adam_zuk\zajecia5\zajecia5\analizatorsygnalu.cpp
+	"AnalizatorSygnalu.hpp"
+	<iostream>
+	"sygnal.hpp"
+
+1509971100 d:\adam_zuk\zajecia5\zajecia5\analizatorsygnalu.hpp
+	"sygnal.hpp"
+	<iostream>
+
+1509971741 source:d:\adam_zuk\zajecia5\zajecia5\sygnalloader.cpp
+	"SygnalLoader.hpp"
+	<fstream>
+	<sstream>
+
+1509971137 d:\adam_zuk\zajecia5\zajecia5\sygnalloader.hpp
+	<string>
+	"sygnal.hpp"
+	<string>
 
